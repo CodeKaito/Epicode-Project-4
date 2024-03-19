@@ -1,8 +1,11 @@
 import React from 'react'
+import UpperBar from '../UpperBar/UpperBar'
 
 const TvShows = () => {
   return (
-    <div>TvShows</div>
+    <div>
+        <UpperBar title="Tv Shows" />
+    </div>
   )
 }
 

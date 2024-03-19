@@ -3,7 +3,7 @@ import UpperBar from "../UpperBar/UpperBar"
 const Home = () => {
   return (
     <div>
-      <UpperBar />
+      <UpperBar title="Home" />
     </div>
   )
 }

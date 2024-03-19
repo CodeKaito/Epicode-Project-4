@@ -1,17 +1,16 @@
 import { Container, Row, Col, Form } from 'react-bootstrap'
 
-const UpperBar = () => {
+const UpperBar = ({ title }) => {
   return (
     <Container fluid className="bg-black">
       <Row className="align-items-center pb-3">
         <Col className="d-flex align-items-center">
-          <h2 className="ms-2 me-4 text-light">Home</h2>
+          <h2 className="ms-2 me-4 text-light">{title}</h2>
           <Form.Select
             aria-label="genres"
-            className="w-25"
+            className="w-25 cursor-pointer form-select"
             placeholder="Genres"
           >
-            <option>Genres</option>
             <option>Comedy</option>
             <option>Drama</option>
             <option>Thriller</option>
