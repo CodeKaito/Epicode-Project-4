@@ -1,10 +1,7 @@
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import MyNavbar from './components/Navbar/MyNavbar';
-import MyFooter from './components/Footer/MyFooter';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Home from './components/Home/Home';
-import TvShows from './components/TvShows/TvShows';
+import { Home, MyFooter, MyNavbar, Movies, Search, TvShows } from './components/index';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 
 function App() {
   return (
@@ -13,10 +10,12 @@ function App() {
         <header>
           <MyNavbar />
         </header>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/tv-shows" element={<TvShows />} />
-        </Routes>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/tv-shows" element={<TvShows />} />
+            <Route path="/movies" element={<Movies />} />
+            <Route path="/search" element={<Search />} />
+          </Routes>
         <MyFooter />
       </div>
     </BrowserRouter>

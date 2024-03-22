@@ -37,6 +37,9 @@ const MyNavbar = () => {
             <Link to="/recently" className="nav-link fw-bold cursor-pointer">
               Recently Added
             </Link>
+            <Link to="/search" className="nav-link fw-bold cursor-pointer">
+              Search a Title
+            </Link>
             <Link to="/list" className="nav-link fw-bold cursor-pointer">
               My List
             </Link>
