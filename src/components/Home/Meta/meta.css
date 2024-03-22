@@ -1,0 +1,21 @@
+.metaContainer {
+    float: left; /* Posiziona il contenitore a sinistra */
+    padding-top: 10rem;
+    padding-left: 10rem; /* Aggiunge margine a destra per allineare con altri elementi */
+    width: 50rem;
+}
+
+.metaContainer-title {
+    font-size: 100px;
+}
+
+.metaContainer-subtitle {
+    font-size: 100px;
+    font-weight: 100;
+}
+
+.metaContainer-desc {
+    font-size: 20px;
+    font-weight: 600;
+}
+

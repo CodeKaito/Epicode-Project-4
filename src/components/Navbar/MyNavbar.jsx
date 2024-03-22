@@ -1,9 +1,31 @@
+import { useEffect, useState } from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
+import './navbar.css'
 import { Link } from 'react-router-dom';
 
 const MyNavbar = () => {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.scrollY;
+      if (scrollTop > 0) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+    
+  }, []);
+
   return (
-    <Navbar expand="lg" className="bg-black">
+    <Navbar expand="lg" className={`fixed-top ${isScrolled ? 'bg-black' : ''}`}>
       <Container fluid>
         <Link to="/">
           <div className="mx-3">

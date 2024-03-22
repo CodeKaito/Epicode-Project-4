@@ -12,12 +12,12 @@ const FetchMovie = ({ movieTitle }) => {
         console.log(movieTitle);
         const response = await fetch(`${API_URL}&t=${encodeURIComponent(movieTitle)}`);
         if (!response.ok) {
-          throw new Error('Errore durante il fetch');
+          throw new Error('Error while fetching movie: ' + movieTitle);
         }
         const data = await response.json();
         setMovie(data);
       } catch (error) {
-        console.error('Si è verificato un errore:', error);
+        console.error('Error with the fetchData function:', error);
       }
     };
 

@@ -1,3 +1,14 @@
+body {
+  height: 100vh;
+  background-color: transparent;
+}
+
 .cursor-pointer {
   cursor: pointer;
+}
+
+.background-image {
+  background-image: url(https://occ-0-4519-784.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABXUwyF0uIeetBfAxmANG0I39jArd0ZrYAj-ieZ9AxLkE0pDtPP8dQofy90_eO9Y4zpuI75Ya8HF5wYBANtvlgx3rEL7lkDA5mElO.webp?r=37b);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
