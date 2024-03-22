@@ -11,9 +11,10 @@ const UpperBar = ({ title }) => {
             className="w-25 cursor-pointer form-select"
             placeholder="Genres"
           >
-            <option>Comedy</option>
-            <option>Drama</option>
-            <option>Thriller</option>
+            <option value="">Seleziona un genere</option>
+            <option value="Comedy">Comedy</option>
+            <option value="Drama">Drama</option>
+            <option value="Thriller">Thriller</option>
           </Form.Select>
         </Col>
         <Col className="d-flex justify-content-end me">
