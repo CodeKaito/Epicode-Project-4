@@ -6,7 +6,7 @@ import './App.css';
 function App() {
   return (
     <BrowserRouter>
-      <div data-bs-theme="dark" className="bg-dark background-image">
+      <div data-bs-theme="dark" className="bg-dark">
         <header>
           <MyNavbar />
         </header>

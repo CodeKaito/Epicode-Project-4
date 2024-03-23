@@ -1,8 +1,9 @@
 import { Container, Row, Col, Form } from 'react-bootstrap'
+import './upperbar.css'
 
 const UpperBar = ({ title }) => {
   return (
-    <Container fluid className="bg-black">
+    <Container fluid className="bg-transparent upperbar">
       <Row className="align-items-center pb-3">
         <Col className="d-flex align-items-center">
           <h2 className="ms-2 me-4 text-light">{title}</h2>
