@@ -1,21 +1,49 @@
 .metaContainer {
-    float: left; /* Posiziona il contenitore a sinistra */
-    padding-top: 10rem;
-    padding-left: 10rem; /* Aggiunge margine a destra per allineare con altri elementi */
-    width: 50rem;
+    padding-top: 20rem;
+    padding-left: 5rem; /* Aggiunge margine a destra per allineare con altri elementi */
+    width: 60rem;
 }
 
 .metaContainer-title {
+    font-family: "Orbitron", sans-serif;
+    font-weight:lighter;
     font-size: 100px;
 }
 
 .metaContainer-subtitle {
+    font-family: "Orbitron", sans-serif;
     font-size: 100px;
-    font-weight: 100;
+    font-weight: lighter;
 }
 
 .metaContainer-desc {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 600;
 }
 
+.fa-play {
+    font-size: 30px;
+}
+
+.riproduci {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.button-info {
+    opacity: 0.5;
+}
+
+.button-info:hover {
+    opacity: 0.8;
+}
+
+.FaCircleInfo  {
+    font-size: 30px;
+    color: white;
+}
+
+.altre-info {
+    font-size: 30px;
+    font-weight: 600;
+}
