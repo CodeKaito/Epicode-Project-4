@@ -2,7 +2,7 @@ import { Container, Row, Col, Button } from 'react-bootstrap'
 
 const MyFooter = () => {
   return (
-    <Container fluid className="bg-black py-2">
+    <Container fluid className="bg-black py-2 mt-5">
       <Row className="justify-content-center mt-5">
         <Col xs={6}>
           <Row>
