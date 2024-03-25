@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import FetchMovie from "../../utils/fetchMovie";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
