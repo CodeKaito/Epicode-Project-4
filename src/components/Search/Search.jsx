@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import FetchMovie from '../../utils/fetchMovie';
+import FetchMoviebyTitle from '../../utils/fetchMovie';
 import './search.css';
 
 const Search = () => {
@@ -9,7 +9,7 @@ const Search = () => {
     setMovieTitle(event.target.value); 
   };
 
-  const movie = FetchMovie({ movieTitle });
+  const movie = FetchMoviebyTitle({ movieTitle });
 
   return (
     <div className='container search-container'>

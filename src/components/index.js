@@ -1,3 +1,4 @@
+import DetailComponent from './Details/DetailComponent.jsx'
 import Home from './Home/Home.jsx'
 import Movies from './Movies/Movies.jsx'
 import MyFooter from './Footer/MyFooter.jsx'
@@ -7,5 +8,4 @@ import Search from './Search/Search.jsx'
 import TvShows from './TvShows/TvShows.jsx'
 import UpperBar from './UpperBar/UpperBar.jsx'
 
-
-export{ Home, Movies, MyFooter, MyNavbar, NotFound, Search, TvShows, UpperBar }
+export{ DetailComponent, Home, Movies, MyFooter, MyNavbar, NotFound, Search, TvShows, UpperBar }
