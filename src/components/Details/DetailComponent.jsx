@@ -10,11 +10,11 @@ const DetailComponent = () => {
     const movie = FetchMoviebyId({ id });
 
     if (!movie) {
-        return <div>Loading...</div>;
+        return <div className='d-flex align-items-center justify-content-center h-100'>Loading...</div>;
     }
 
     return (
-        <div className='container pt-5'>
+        <div className='pt-5 bg-dark'>
             <div className='row'>
                 <div className='col-md-4 offset-md-4'>
                     <div className='card'>

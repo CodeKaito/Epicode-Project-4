@@ -11,7 +11,7 @@ function App() {
         <header>
           <MyNavbar />
         </header>
-        <body>
+        <body className='bg-dark'>
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/tv-shows" element={<TvShows />} />
