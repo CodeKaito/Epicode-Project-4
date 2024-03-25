@@ -1,5 +1,5 @@
 import React from 'react';
-import Meta from './Meta/Meta';
+import Meta from '../Meta/Meta';
 import NetflixList from '../NetflixList/NetflixList';
 import './home.css';
 
