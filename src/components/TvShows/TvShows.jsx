@@ -8,8 +8,11 @@ const TvShows = () => {
   return (
     <div className='tvshows-container'>
         <UpperBar title="Tv Shows" />
-        <Meta title="ARCHIVE81" subTitle="Universi Alternativi" />
-        <NetflixList searchQuery="Harry Potter" />
+        <div>
+          <Meta title="ARCHIVE81" subTitle="Universi Alternativi" />
+        </div>
+        <NetflixList searchQuery="Halloween" />
+        <NetflixList searchQuery="Horror" />
     </div>
   )
 }

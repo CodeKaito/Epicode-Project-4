@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import { Home, MyFooter, MyNavbar, Movies, Search, TvShows } from './components/index';
+import { Home, MyFooter, MyNavbar, Movies, Search, TvShows, NotFound } from './components/index';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -16,9 +16,10 @@ function App() {
             <Route path="/tv-shows" element={<TvShows />} />
             <Route path="/movies" element={<Movies />} />
             <Route path="/search" element={<Search />} />
+            <Route path="/*" element={<NotFound />} />
           </Routes>
+          <MyFooter />
         </body>
-        <MyFooter />
       </div>
     </BrowserRouter>
   )

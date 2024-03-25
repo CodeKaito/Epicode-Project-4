@@ -73,7 +73,7 @@ const NetflixList = ({ searchQuery }) => {
 
   // Rendering di tutto (con return, NON render)
   return (
-    <div className="mt-5">
+    <div className="pt-5 bg-dark">
       {/* Utilizzo dello Slider con le impostazioni specificate */}
       <Slider {...settings}>
         {/* Mappo i dati ottenuti dalla chiamata API */}
