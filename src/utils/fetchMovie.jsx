@@ -10,7 +10,7 @@ const FetchMovie = ({ movieTitle }) => {
     const fetchData = async () => {
       try {
         console.log(movieTitle);
-        const response = await fetch(`${API_URL}&t=${encodeURIComponent(movieTitle)}`);
+        const response = await fetch(`${API_URL}&t=${(movieTitle)}`);
         if (!response.ok) {
           throw new Error('Error while fetching movie: ' + movieTitle);
         }
